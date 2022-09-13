@@ -8,7 +8,7 @@ import Map from './components/Map';
 
 
 
-const API_KEY = 'at_2ShgtMJYPDGGiyJWrfZZAxftTkWaj';
+const API_KEY = 'at_feQNqNktv7XuItm7oo0aC9h967PCh';
 
 
 
