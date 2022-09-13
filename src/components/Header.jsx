@@ -23,10 +23,10 @@ const Header = ({ipData, fetchMoviesHandler, inputText, InputHandler, SubmitHand
             <div className='flex justify-center flex-col items-center '>
                 <h1 className='text-2xl text-white my-5'>IP Address Tracker</h1>
 
-                <form action="" onClick={SubmitHandler} className="p-3" >
+                <form action="" onClick={SubmitHandler} className="p-2 flex" >
                     <input type="text" size="50" placeholder='search for any IP or domain' onBlur={nameInputBlurHandler} onChange={InputHandler} value={inputText} className='p-3 outline-none border rounded-l-2xl ' />
                     {enteredNameIsInValid && <p>IP cannot be empty</p>}
-                    <button className='bg-black p-5 rounded-r-2xl text-white'><img src={arrow} alt="" /></button>
+                    <button className='bg-black p-4 rounded-r-2xl text-white'><img src={arrow} alt="" /></button>
                     {error && <p>Put correct address</p>}
                 </form>
              {/* <IpDetails ipData={ipData}/> */}
